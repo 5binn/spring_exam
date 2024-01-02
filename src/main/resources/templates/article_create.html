@@ -1,0 +1,12 @@
+<form th:action="@{/article/create}" method="post">
+    <div>
+        <h1>제목</h1>
+        <input name="subject" id="subject" type="text">
+    </div>
+    <div>
+        <h1>내용</h1>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <input type="submit" value="저장" class="button">
+</form>
